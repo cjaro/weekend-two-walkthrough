@@ -1,0 +1,28 @@
+.active {
+  color: darkviolet;
+}
+
+.nav {
+  background-color: rgb(121, 234, 245);
+  border: 1px dashed black;
+  font-size: 48px;
+}
+
+.container {
+  background-color: lime;
+  display: flex;
+  flex-flow: row wrap;
+  border: 2px dotted red;
+}
+
+#next, #prev, #shoutouts{
+  /*float: left;*/
+  flex: 1 auto;
+  text-align: center;
+}
+
+#points, h1 {
+  /*clear: both;*/
+  flex: 1 100%;
+  text-align: center;
+}
